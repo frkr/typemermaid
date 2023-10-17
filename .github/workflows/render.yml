@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - uses: tokusumi/markdown-embed-code@v1.0.0
+      - uses: tokusumi/markdown-embed-code@v1.0.1
         with:
           markdown: "README.md"
           message: "synchronizing Readme"
