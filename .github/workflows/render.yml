@@ -1,7 +1,9 @@
 name: Render
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - '**.md'
 
 jobs:
   render:
