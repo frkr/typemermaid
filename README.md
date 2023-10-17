@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR
-  A --> B --> C
+  A --> B --> C --> D
 ```
 
 ```typescript:teste.ts
